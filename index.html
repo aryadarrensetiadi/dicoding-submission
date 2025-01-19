@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arda Electric Profile</title>
 
-    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="./asset/style.css">
+    <script src="./asset/main.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -125,6 +126,12 @@
                         <b>Bagaimana cara mengetahui produk yang tersedia di toko?</b>
                         <p>Anda bisa mengunjungi toko langsung atau menghubungi kami melalui WhatsApp untuk menanyakan ketersediaan produk.</p>
                     </section>
+                </section>
+                <section class="form">
+                    <h3>Tanya Sekarang</h3>
+                    <input type="text" id="name" placeholder="Masukkan nama Anda" required>
+                    <textarea id="message" placeholder="Tulis pesan Anda" rows="4" required></textarea>
+                    <button type="button" onclick="sendMessage()">Kirim</button>
                 </section>
             </article>
         </aside>
